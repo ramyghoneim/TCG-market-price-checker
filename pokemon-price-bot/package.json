@@ -1,0 +1,25 @@
+{
+  "name": "pokemon-price-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that fetches TCGplayer prices for Pokemon restock notifications",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": ["pokemon", "tcgplayer", "discord", "bot", "prices"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "fuse.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.0"
+  }
+}
